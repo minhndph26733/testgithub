@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 bg-warning">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Trang chủ</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      Users
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="user.html">User</a></li>
+                      <li><a class="dropdown-item" href="#">Group</a></li>
+
+                      <li><a class="dropdown-item" href="#">Role</a></li>
+                    </ul>
+
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Product</a></li>
+                      <li><a class="dropdown-item" href="#">Category</a></li>
+
+                      <li><a class="dropdown-item" href="#">Tag</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Settings
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Banner</a></li>
+                      <li><a class="dropdown-item" href="#">Info</a></li>
+
+                    </ul>
+                  </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div style="height: 629px;">
+      <h3 class="text-center text-primary">ADD USERS</h3>
+      <hr>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <div class="col-6">
+          <label class="form-label">Fullname</label>
+          <input type="text" class="form-control" placeholder="Fullname">
+        </div>
+        <div class="col-6">
+          <label class="form-label">Email</label>
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Group</label>
+          <input type="text" class="form-control" placeholder="Group">
+        </div>
+        <div class="col-12">
+          <label class="form-label">Status</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">
+              Đang hoạt động
+            </label>
+
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">
+              Dừng hoạt động
+            </label>
+
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+      </form>
+    </div>
+    <div class="text-center">
+      <footer style="width: 100%; height: 50px; background-color: #ccc; text-align: center; line-height: 50px;">Nguyễn
+        Đình Minh</footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

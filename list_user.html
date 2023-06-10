@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Trang chủ</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      Users
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="list_user.html">User</a></li>
+                      <li><a class="dropdown-item" href="#">Group</a></li>
+
+                      <li><a class="dropdown-item" href="#">Role</a></li>
+                    </ul>
+
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Product</a></li>
+                      <li><a class="dropdown-item" href="#">Category</a></li>
+
+                      <li><a class="dropdown-item" href="#">Tag</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Settings
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Banner</a></li>
+                      <li><a class="dropdown-item" href="#">Info</a></li>
+
+                    </ul>
+                  </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="text-center text-primary">Danh sách User</h3>
+    <hr>
+    <a href="add_user.html" class="btn btn-outline-primary float-lg-end">Add User</a>
+
+    <div style="height: 562px;">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Fullname</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Group</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Nguyen Dinh Minh</td>
+            <td>minhdepzai</td>
+            <td>minhdepzai@gmal.com</td>
+            <td>hanoino1</td>
+            <td>hoat dong</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Nguyen Thi Tuyet</td>
+            <td>tuyet123</td>
+            <td>tuyet123@gmail.com</td>
+            <td>hanoino1</td>
+            <td>hoat dong</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Luu Bich Ngoc</td>
+            <td>ngocxinhgai</td>
+            <td>ngocxinhgai@gmail.com</td>
+            <td>hanoino1</td>
+            <td>hoat dong</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="text-center">
+      <footer style="width: 100%; height: 50px; background-color: #ccc; text-align: center; line-height: 50px;">Nguyễn
+        Đình Minh</footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
